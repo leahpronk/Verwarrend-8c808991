@@ -31,4 +31,5 @@ SHOW TABLES;
 -- describe informatie;
 
 ALTER TABLE informatie ADD id MEDIUMINT NOT NULL AUTO_INCREMENT PRIMARY KEY;
-describe informatie;
+delete from informatie
+where naam = `Teenalp`;
